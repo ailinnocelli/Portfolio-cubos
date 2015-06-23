@@ -1,0 +1,280 @@
+@import 'reset';
+@import'variables';
+
+.contenedor-pagina{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+.header-back{
+	/*background-image: url("../img/cubos.jpg");
+	/*background-color: #F5A9F2;*/
+	/*background-size: cover;
+	background-repeat: no-repeat;
+	@media (min-width: 520px){*/
+  	display: block;
+  	position: relative;
+  	width: 100%;
+  	height: 380px;
+  	@media (min-width: 768px){
+  		height: 800px;
+  	}
+}
+
+.header-back :after{
+	content: "";
+  	background: url("../img/cubos.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+  	opacity: 0.4;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}
+
+
+nav {
+	background-color: transparent;
+	width: 100%;
+	height: 45px;
+	margin-bottom: 30px;
+	position: fixed;
+  	/*z-index: 999;
+  	transition: all 0.5s;*/
+	ul{
+		float:right;
+		li{
+			color:white;
+			float: left;
+			padding: 20px;
+			font-size: 15px;
+			cursor:pointer;
+			@media (min-width: 768px){
+  			font-size: 20px;
+  			}
+			/*text-shadow: 4px 2px 2px #6E6E6E*/
+		}
+	}
+}
+/*.nav-dos{
+	height: 50px;
+	background-color:#8343538;
+	position: fixed;*/
+  	/*z-index: 999;
+  	transition: all 0.5s;
+}*/
+header{
+	padding-top: 15%;
+	height: 300px;
+	margin: 0 auto;
+	div{
+		padding: 30px;
+		display: inline-block;
+		text-align: left;
+		h1{
+		font-size: 55px;
+		color:black;
+		font-weight: bold;
+		text-shadow: 4px 5px 12px #BDBDBD !important;
+		}
+	}
+}
+.garantizado{
+	/*background-color:#A9F5BC;*/
+	display: block;
+	article{
+		width: 100%;
+		height: 150px;
+		padding: 5px;
+		h1{
+			font-size: 50px;
+			padding: 30px;
+			text-shadow: 5px 4px 10px black !important;
+		}
+	}
+}
+/*.garantizado:after{
+	content: "";
+  	background: url("../img/mpyvzdfgaoo.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+  	opacity: 0.6;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: 2;
+}*/
+.garantizado-p{
+	font-size: 25px;
+	width: 80%;
+	height: 150px;
+}
+.web-design{
+	/*background-color: #29CAF5;*/
+}
+.clean-code{
+	/*display: block;
+  	position: relative;*/
+	background-color: #22A2D8;
+}
+/*.clean-code:after{
+	content: "";
+  	background: url("../img/mpyvzdfgaoo.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+  	opacity: 0.6;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: 2;
+}*/
+#gradient-web{
+	background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#29CAF5));
+}
+#gradient-clean{
+	background: -webkit-gradient(linear, left top, left bottom, from(#29CAF5), to(#424242));
+}/*#585858 #22A2D8*/
+.portfolio{
+	/*background-color: #29CAF5;*/
+
+	height: 300px;
+	padding-top: 30px;
+	h1{
+		font-size: 50px;
+		padding: 30px;
+		text-shadow: 5px 4px 10px black !important;
+
+	}
+}
+#portfolio{
+	background: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff));
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#00abeb), color-stop(0.5, #00abeb), color-stop(0.5, #fff));*/
+}
+.curriculum{
+	margin: 0 auto;
+	/*background-color: #5CF0E8;*/
+	display: block;
+  	position: relative;
+  	width: 100%;
+  	z-index: -2;
+	h1{
+		font-size: 50px;
+		padding: 30px;
+		text-shadow: 5px 4px 10px black !important;
+	}
+	img{
+		width: 100px;
+		border: 4px double 	#696969;
+    	border-radius: 50px;
+	}
+}
+
+.curriculum :after{
+	content: "";
+  	background: url("../img/cubos-172825.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+  	opacity: 0.4;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}
+.article-cv{
+	
+	background-color: #05b3db;
+	padding-top: 15px;
+	font-size: 20px;
+	h2{
+		font-size: 35px;
+	}
+	ul{
+		padding:20px 40px;
+		line-height: 30px;
+	}
+}
+.conocimientos{
+	height: 300px;
+	padding-top: 20px;
+	h2{
+		font-size: 35px;
+	}
+}
+.display{
+	display: inline-block;
+	padding-bottom: 75px;
+	padding-top: 40px;
+}
+.info{
+	font-size: 25px;
+	/*font-weight: bold;*/
+	
+}
+.contacto {
+	
+	display: block;
+  	position: relative;
+  	width: 100%;
+  	
+  	
+}
+.contacto :after{
+	content: "";
+  	background-image: url("../img/mocube_by_jsdu19.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+  	opacity: 0.09;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}
+.contacto{
+	/*background-color: #2A5DF4;*/
+	padding-top: 4%;
+  	text-align: center;
+  	padding-bottom: 5%;
+
+  	form{
+		margin: 0 auto;
+    	display: inline-block;
+   		padding-top: 50px;
+  	}
+  	input{
+  		border: solid 2px gray;
+		display: block;
+      	width: 370px;
+      	height: 50px;
+      	margin-bottom: 10px;
+  	}
+  	input:last-child{
+  		height: 100px;	
+  	}
+}
+.contacto-h1{
+	font-size: 50px;
+	padding: 30px;
+	text-shadow: 5px 4px 10px black !important;
+	}
+.cuerpo-mail{/*ver porque no toma el alto diferente*/
+    height: 200px;
+}
+footer{
+	ul{
+		text-align: center;
+		li{
+			display: inline-block;
+      		margin-left: 5%;
+		}
+	}
+}
